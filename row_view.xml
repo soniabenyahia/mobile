@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="75dp"
+android:orientation="horizontal"
+android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
+android:layout_marginLeft="3dp"
+android:layout_marginRight="3dp"
+android:id="@+id/principal"
+    >
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginRight="6dip"
+    android:contentDescription="" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/vertical"
+    >
+    <TextView
+        android:id="@+id/textDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0D0D"
+        android:text="Title"
+        android:textSize="18dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textDateDepart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E0D0D"
+            android:textSize="19dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textDateArrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0D0D"
+        android:textSize="19dp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
